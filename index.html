@@ -1,162 +1,207 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PARVORA – Discover. Collect. Explore.</title>
-  <meta name="description" content="PARVORA is a premium fragrance collection and discovery game for Android and iOS." />
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #07070b 0%, #141020 100%);
-      color: #f5f1e8;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PARVORA — Discover. Collect. Explore.</title>
+<meta name="description" content="PARVORA is a premium fragrance collection and discovery game.">
 
-```
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #05050a 0%, #120d1f 100%);
+    color: #f5f1e8;
+}
+
 .container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 64px 24px;
-  text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0 20px;
 }
 
 .badge {
-  display: inline-block;
-  padding: 8px 16px;
-  border: 1px solid #d4af37;
-  border-radius: 999px;
-  color: #d4af37;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-bottom: 24px;
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #d4af37;
+    border-radius: 999px;
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 h1 {
-  font-size: 56px;
-  margin: 0;
-  letter-spacing: 4px;
-  color: #d4af37;
+    margin: 0;
+    font-size: 72px;
+    letter-spacing: 4px;
+    color: #d4af37;
 }
 
 .tagline {
-  font-size: 22px;
-  margin-top: 12px;
-  color: #c8b8ff;
+    font-size: 28px;
+    color: #cbb7ff;
+    margin-top: 10px;
 }
 
 .description {
-  max-width: 680px;
-  margin: 32px auto;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #e7e1d5;
+    max-width: 760px;
+    margin: 30px auto;
+    line-height: 1.7;
+    font-size: 20px;
 }
 
 .features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 18px;
-  margin-top: 48px;
-  text-align: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 50px;
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(212, 175, 55, 0.25);
-  border-radius: 18px;
-  padding: 22px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(212,175,55,0.25);
+    border-radius: 18px;
+    padding: 24px;
 }
 
 .card h3 {
-  margin-top: 0;
-  color: #d4af37;
+    color: #d4af37;
+    margin-top: 0;
 }
 
 .card p {
-  color: #ddd6cc;
-  line-height: 1.5;
+    line-height: 1.6;
 }
 
 .links {
-  margin-top: 48px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .links a {
-  display: inline-block;
-  margin: 8px;
-  padding: 12px 18px;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #07070b;
-  background: #d4af37;
-  font-weight: bold;
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 20px;
+    border: 1px solid #d4af37;
+    border-radius: 10px;
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
 }
 
-.links a.secondary {
-  background: transparent;
-  color: #d4af37;
-  border: 1px solid #d4af37;
+.links a:hover {
+    background: #d4af37;
+    color: #05050a;
 }
 
 footer {
-  margin-top: 64px;
-  font-size: 14px;
-  color: #aaa;
+    text-align: center;
+    margin-top: 70px;
+    color: #aaa;
+    line-height: 1.8;
+    padding-bottom: 30px;
 }
-```
 
-  </style>
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+}
+</style>
 </head>
+
 <body>
-  <main class="container">
-    <div class="badge">Premium Fragrance Collector Game</div>
 
-```
-<h1>PARVORA</h1>
-<div class="tagline">Discover. Collect. Explore.</div>
+<div class="container">
 
-<p class="description">
-  PARVORA is a premium fragrance collection and discovery game where players collect fragrance cards,
-  open packs, unlock achievements, complete daily challenges, and build their personal collection.
-</p>
+    <section class="hero">
+        <div class="badge">
+            Premium Fragrance Collector Game
+        </div>
 
-<section class="features">
-  <div class="card">
-    <h3>Collect Fragrances</h3>
-    <p>Discover and collect hundreds of fragrance cards across different rarities and collections.</p>
-  </div>
+        <h1>PARVORA</h1>
 
-  <div class="card">
-    <h3>Open Packs</h3>
-    <p>Open packs, reveal cards, and hunt for rare, legendary, and Founder Edition fragrances.</p>
-  </div>
+        <div class="tagline">
+            Discover. Collect. Explore.
+        </div>
 
-  <div class="card">
-    <h3>Daily Challenges</h3>
-    <p>Complete rotating daily challenges, earn rewards, and build your streak over time.</p>
-  </div>
+        <p class="description">
+            PARVORA is a premium fragrance collection and discovery game where players
+            collect fragrance cards, open packs, unlock achievements, complete daily
+            challenges, and build their personal collection.
+        </p>
+    </section>
 
-  <div class="card">
-    <h3>Achievements</h3>
-    <p>Unlock achievements, badges, avatars, and cosmetic rewards as your collection grows.</p>
-  </div>
-</section>
+    <section class="features">
 
-<div class="links">
-  <a href="privacy-policy.md" class="secondary">Privacy Policy</a>
-  <a href="terms.md" class="secondary">Terms of Use</a>
-  <a href="support.md" class="secondary">Support</a>
+        <div class="card">
+            <h3>Collect Fragrances</h3>
+            <p>
+                Discover and collect over 500 fragrances across multiple
+                collections and rarities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Open Packs</h3>
+            <p>
+                Reveal cards and hunt for Rare, Epic, Legendary,
+                and Founder fragrances.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Daily Challenges</h3>
+            <p>
+                Complete daily objectives, earn rewards,
+                and maintain your collection streak.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Achievements</h3>
+            <p>
+                Unlock badges, avatars, rewards,
+                and milestones as your collection grows.
+            </p>
+        </div>
+
+    </section>
+
+    <div class="links">
+        <a href="privacy-policy.md">Privacy Policy</a>
+        <a href="terms.md">Terms of Use</a>
+        <a href="support.md">Support</a>
+    </div>
+
+    <footer>
+        <p>PARVORA is an independent fragrance collector game.</p>
+
+        <p>
+            Not affiliated with, endorsed by, or sponsored by any fragrance
+            brand or trademark owner.
+        </p>
+
+        <p>
+            © 2026 David Schibath. All rights reserved.
+        </p>
+    </footer>
+
 </div>
 
-<footer>
-  <p>PARVORA is an independent fragrance collector game.</p>
-  <p>Not affiliated with, endorsed by, or sponsored by any fragrance brand or trademark owner.</p>
-  <p>© 2026 David Schibath. All rights reserved.</p>
-</footer>
-```
-
-  </main>
 </body>
 </html>
