@@ -1,192 +1,314 @@
 # Privacy Policy for PARVORA
 
-Effective date: 19 June 2026
+**Effective Date:** 19 June 2026
 
-PARVORA (“the App”) is a mobile game developed and operated by David Schibath (“we”, “us”, or “our”). This Privacy Policy explains how information is handled when you use PARVORA.
+PARVORA ("the App") is a mobile game developed and operated by David Schibath ("we", "us", or "our"). This Privacy Policy explains how information is handled when you use PARVORA.
 
-If you have any questions about this Privacy Policy, you can contact us at:
+If you have any questions regarding this Privacy Policy, please contact:
 
-parvora@gmx.ch
+**Email:** [parvora@gmx.ch](mailto:parvora@gmx.ch)
+
+---
 
 ## 1. Overview
 
-PARVORA is a perfume collection game. The current version of the App does not require a user account, login, password, email registration, or real-name profile.
+PARVORA is a fragrance collection and discovery game. The current version of the App does not require a user account, login, password, email registration, or real-name profile.
 
 The App currently uses:
-- local device storage to save game progress;
-- Firebase Analytics to understand how the App is used;
-- Google AdMob to display rewarded advertisements;
-- Google Play services where required by the Android platform.
 
-Future versions of PARVORA may include optional account features, display names, cloud saves, leaderboards, or community features. If these features are introduced, this Privacy Policy will be updated before or at the time such features become available.
+* Local device storage to save game progress
+* Firebase Analytics to understand how the App is used
+* Google AdMob to display rewarded advertisements
+* Google Play Services and Apple platform services where required
 
-## 2. Information we do not collect directly
+Future versions of PARVORA may introduce optional account systems, cloud saves, display names, leaderboards, or community features. If such features are introduced, this Privacy Policy will be updated accordingly.
+
+---
+
+## 2. Information We Do Not Collect Directly
 
 In the current version of PARVORA, we do not directly collect:
-- your real name;
-- your postal address;
-- your phone number;
-- your email address inside the App;
-- your payment card information;
-- your precise GPS location;
-- your contacts;
-- your photos or camera content;
-- account passwords.
 
-The App does not currently include a login system.
+* Your real name
+* Your postal address
+* Your phone number
+* Your personal email address through the App
+* Payment card information
+* Precise GPS location
+* Contact lists
+* Photos or camera content
+* Passwords
 
-## 3. Local game data stored on your device
+The App currently does not include a login or registration system.
 
-PARVORA stores certain game-related data locally on your device using local storage technologies such as SharedPreferences. This may include, for example:
+---
 
-- coins;
-- XP and level;
-- unlocked fragrances;
-- unlocked Founder Cards;
-- unlocked achievements;
-- selected avatar;
-- selected badge;
-- wishlist items;
-- daily challenge progress;
-- quiz attempts;
-- premium status;
-- local player name.
+## 3. Local Data Stored on Your Device
 
-This data is stored on your device so the App can remember your progress and preferences. In the current version, this data is not stored on our own server because PARVORA does not yet use accounts or cloud saving.
+PARVORA stores game-related information locally on your device using technologies such as SharedPreferences.
 
-If you uninstall the App or clear app data, locally stored progress may be lost.
+Examples include:
+
+* Coins
+* XP and player level
+* Discovered fragrances
+* Founder Cards
+* Achievements
+* Avatar selections
+* Badge selections
+* Wishlist entries
+* Daily Challenge progress
+* Quiz attempts
+* Premium status
+* Local player name
+
+This information is stored locally to provide game functionality and preserve progress.
+
+Because PARVORA currently does not use cloud accounts or online profiles, this data is not stored on our own servers.
+
+If you uninstall the App or clear its data, locally stored progress may be lost.
+
+---
 
 ## 4. Firebase Analytics
 
-PARVORA uses Firebase Analytics, a service provided by Google, to help us understand how users interact with the App. This helps us improve gameplay, identify popular features, and understand general usage patterns.
+PARVORA uses Firebase Analytics, a service provided by Google.
+
+Analytics helps us understand how players use the App, identify popular features, improve gameplay, and maintain app quality.
 
 Firebase Analytics may collect information such as:
 
-- app opens and sessions;
-- screen views;
-- interaction events such as quiz started, quiz finished, pack opened, collection opened, premium screen opened, and similar gameplay events;
-- device and app information;
-- approximate usage statistics;
-- crash- or performance-related technical signals if enabled by Google services.
+* App launches and sessions
+* Screen views
+* Gameplay interactions
+* Quiz activity
+* Collection activity
+* Reward activity
+* Premium screen visits
+* Device information
+* App version information
+* General usage statistics
 
-Analytics data is used in aggregated or pseudonymous form where possible. We do not use Firebase Analytics to identify you by real name.
+Where possible, analytics information is processed in aggregated or pseudonymous form.
 
-Google may process this data according to its own privacy and security terms.
+We do not use analytics data to identify users by real name.
 
-## 5. Google AdMob and rewarded ads
+Google may process analytics data according to Google's own privacy policies and terms.
 
-PARVORA uses Google AdMob to display rewarded advertisements. Rewarded ads are optional ads that a user may choose to watch in exchange for an in-game reward, such as an additional quiz attempt.
+---
 
-Google AdMob and the Google Mobile Ads SDK may process data for purposes such as:
+## 5. Google AdMob and Rewarded Advertisements
 
-- displaying ads;
-- measuring ad performance;
-- limiting fraud and abuse;
-- improving ad delivery;
-- complying with advertising and platform requirements.
+PARVORA uses Google AdMob to display rewarded advertisements.
 
-This may include device identifiers, advertising identifiers, app interaction data, approximate location inferred from network information, diagnostics, and other technical information handled by Google’s advertising services.
+Rewarded ads are optional advertisements that users may choose to watch in exchange for in-game rewards.
 
-We do not sell personal data ourselves. However, advertising services may involve data processing by Google and its advertising partners according to their own terms and policies.
+Google AdMob and related advertising technologies may process information for purposes including:
+
+* Ad delivery
+* Ad performance measurement
+* Fraud prevention
+* Abuse detection
+* Service improvement
+* Compliance with platform requirements
+
+This may include:
+
+* Device identifiers
+* Advertising identifiers
+* App interaction information
+* Approximate location derived from network information
+* Diagnostic information
+* Technical usage data
+
+We do not sell personal information.
+
+Advertising services may process information according to their own privacy policies and applicable legal requirements.
+
+---
 
 ## 6. Premium Pass
 
-PARVORA includes or may include a Premium Pass. Premium status may unlock cosmetic rewards and additional daily quiz attempts. In the current implementation, premium status is stored locally on the device.
+PARVORA offers or may offer a Premium Pass that provides cosmetic rewards and additional gameplay convenience features.
 
-The Premium Pass does not provide pay-to-win mechanics such as extra coins, XP boosters, pack advantages, or higher drop chances.
+Premium benefits currently include cosmetic customization items and additional daily quiz attempts.
 
-If real in-app purchases are enabled in a future version, payment processing will be handled by the relevant app store or payment provider. We do not receive or store full payment card details.
+Premium status is currently stored locally on the user's device.
 
-## 7. Legal basis for processing
+PARVORA does not provide pay-to-win mechanics such as:
 
-Depending on your location, we process data based on one or more of the following legal bases:
+* XP multipliers
+* Coin multipliers
+* Increased drop rates
+* Gameplay advantages over other players
 
-- performance of the App functionality;
-- our legitimate interest in improving and maintaining the App;
-- your consent where required for analytics, advertising, or similar technologies;
-- compliance with legal obligations.
+If real-money purchases are enabled, payment processing is handled by the relevant app store provider.
 
-For users in Switzerland, processing is intended to comply with the Swiss Federal Act on Data Protection. For users in the European Economic Area or the United Kingdom, relevant data protection rights under applicable privacy laws may also apply.
+We do not receive or store complete payment card information.
 
-## 8. Data sharing
+---
 
-We may share or make data available to service providers that help operate the App, including:
+## 7. Legal Basis for Processing
 
-- Google Firebase;
-- Google AdMob;
-- Google Play services;
-- app store providers.
+Depending on your jurisdiction, information may be processed based on:
 
-These providers may process data as independent controllers or processors depending on the service and context.
+* Provision of App functionality
+* Legitimate interests in maintaining and improving the App
+* User consent where required
+* Compliance with legal obligations
+
+For users in Switzerland, processing is intended to comply with the Swiss Federal Act on Data Protection (FADP).
+
+For users in the European Economic Area (EEA) and the United Kingdom, applicable privacy rights under relevant data protection laws may apply.
+
+---
+
+## 8. Data Sharing
+
+We may share information with service providers that help operate the App, including:
+
+* Google Firebase
+* Google AdMob
+* Google Play Services
+* Apple App Store services
+* App distribution platforms
+
+These providers may process information as controllers or processors depending on the service involved.
 
 We do not sell personal information directly to third parties.
 
-## 9. International data transfers
+---
 
-Because PARVORA uses services provided by Google and app store platforms, data may be processed in countries outside your country of residence, including countries that may have different data protection laws.
+## 9. International Data Transfers
 
-Where required, service providers are expected to use appropriate legal mechanisms and safeguards for international data transfers.
+Because PARVORA uses services provided by Google and mobile platform providers, information may be processed in countries outside your country of residence.
 
-## 10. Data retention
+These countries may have different privacy laws than your own jurisdiction.
 
-Locally stored game data remains on your device until you delete it, reset the App, clear app data, or uninstall the App.
+Service providers are expected to implement appropriate safeguards where required by applicable law.
 
-Analytics and advertising data may be retained by Google according to Google’s own retention settings and policies.
+---
 
-We aim to keep data only for as long as necessary for the purposes described in this Privacy Policy.
+## 10. Data Retention
 
-## 11. Children’s privacy
+Locally stored game data remains on your device until:
 
-PARVORA is not specifically directed at children. We do not knowingly collect personal information from children directly.
+* You delete the App
+* You clear App data
+* You reset your device
+* You manually remove the stored information
 
-If the App is made available to children in certain regions or age categories in the future, additional consent, advertising, and privacy requirements may apply.
+Analytics and advertising-related information may be retained by service providers according to their own retention policies.
 
-## 12. Your rights
+---
 
-Depending on your location, you may have rights to:
+## 11. Children's Privacy
 
-- request access to personal data;
-- request correction of inaccurate data;
-- request deletion of data;
-- object to certain processing;
-- withdraw consent where processing is based on consent;
-- request information about data processing;
-- lodge a complaint with a competent data protection authority.
+PARVORA is not specifically directed toward children.
 
-Because the current version of PARVORA does not use accounts, we may not be able to identify or retrieve local device data unless you provide relevant information or screenshots.
+We do not knowingly collect personal information directly from children.
 
-You can also control or delete locally stored App data through your device settings by clearing app data or uninstalling the App.
+If future versions target younger audiences, additional privacy protections and consent mechanisms may be implemented where required.
 
-## 13. Advertising choices
+---
 
-You may be able to limit ad personalization or reset your advertising ID through your device settings.
+## 12. Your Rights
 
-On Android, these settings may be available in your Google or privacy settings, depending on your device and operating system version.
+Depending on your jurisdiction, you may have rights to:
 
-## 14. Future account features
+* Access personal information
+* Correct inaccurate information
+* Request deletion of information
+* Object to certain processing activities
+* Withdraw consent where applicable
+* Request information about processing activities
+* Lodge a complaint with a competent supervisory authority
 
-PARVORA may later introduce optional login, display names, cloud saves, leaderboards, or community features.
+Because PARVORA currently does not use accounts, our ability to identify specific users may be limited.
 
-If this happens, additional data may be processed, such as:
+Users may remove local data by clearing App storage or uninstalling the App.
 
-- account identifiers;
-- display names;
-- cloud save data;
-- leaderboard scores;
-- community profile information.
+---
 
-This Privacy Policy will be updated to describe such features before or when they become available.
+## 13. Advertising Choices
 
-## 15. Changes to this Privacy Policy
+You may be able to manage advertising preferences through your device settings.
 
-We may update this Privacy Policy from time to time. Updates may be necessary when we add new features, change service providers, or adapt to legal or platform requirements.
+Depending on your platform, you may:
 
-The updated version will be made available through the App, store listing, or a linked website.
+* Reset advertising identifiers
+* Limit personalized advertising
+* Disable certain advertising features
 
-## 16. Contact
+Availability of these controls depends on your operating system and region.
 
-For questions, requests, or privacy-related concerns, contact:
+---
 
-parvora@gmx.ch
+## 14. Future Account Features
 
-Developer location: Switzerland
+Future versions of PARVORA may include:
+
+* User accounts
+* Display names
+* Cloud saves
+* Leaderboards
+* Community features
+
+If introduced, additional information may be processed, including:
+
+* User identifiers
+* Display names
+* Cloud save data
+* Leaderboard information
+* Community profile information
+
+This Privacy Policy will be updated before or when such features become available.
+
+---
+
+## 15. Trademarks and Brand References
+
+PARVORA is an independent fragrance collector game and is not affiliated with, endorsed by, sponsored by, or associated with any fragrance brand, manufacturer, trademark owner, or luxury company.
+
+All trademarks, brand names, product names, logos, and related intellectual property referenced within PARVORA remain the property of their respective owners.
+
+References to fragrances, perfume houses, brands, and products are used solely for informational, identification, collection, cataloging, and entertainment purposes.
+
+No ownership of third-party trademarks is claimed by PARVORA.
+
+---
+
+## 16. Intellectual Property Notice
+
+Any third-party product names, fragrance names, trademarks, logos, bottle designs, product images, or other intellectual property that may appear within PARVORA remain the property of their respective copyright and trademark holders.
+
+PARVORA does not claim ownership of third-party intellectual property and uses such content solely for informational, identification, collection, cataloging, and gameplay purposes.
+
+If you are a rights holder and believe that content within PARVORA infringes your rights, please contact us and we will review the matter promptly.
+
+---
+
+## 17. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+Updates may occur when:
+
+* New features are introduced
+* Service providers change
+* Legal requirements evolve
+* Platform requirements are updated
+
+Updated versions will be published through the App, store listings, or associated websites.
+
+---
+
+## 18. Contact
+
+For privacy-related questions, requests, or concerns, please contact:
+
+**PARVORA Support**
+Email: [parvora@gmx.ch](mailto:parvora@gmx.ch)
+
+**Developer:** David Schibath
+**Location:** Switzerland
